@@ -2,10 +2,11 @@
   "name": "@idenisovs/template-processor",
   "version": "1.0.0",
   "description": "Custom template processor that used to generate random sentences.",
-  "main": "./target/index.js",
+  "main": "./lib/index.js",
   "types": "./types",
   "scripts": {
     "build": "tsc --project ./tsconfig.json",
+    "build:prod": "tsc --project ./tsconfig.prod.json",
     "watch": "npm run build -- --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
