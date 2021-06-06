@@ -1,7 +1,7 @@
-function add(x: number, y: number): number {
-	return x + y;
+export class TemplateProcessor {
+	sources: string[][];
+
+	constructor(sources: string[][]) {
+		this.sources = sources;
+	}
 }
-
-const result = add(1, 2);
-
-console.log(result);
