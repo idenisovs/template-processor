@@ -1,4 +1,7 @@
+export interface TemplateSources {
+    [name: string]: string[];
+}
 export declare class TemplateProcessor {
-    sources: string[][];
-    constructor(sources: string[][]);
+    sources: TemplateSources;
+    constructor(sources: TemplateSources);
 }

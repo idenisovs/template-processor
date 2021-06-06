@@ -1,7 +1,11 @@
-export class TemplateProcessor {
-	sources: string[][];
+export interface TemplateSources {
+	[name: string]: string[]
+}
 
-	constructor(sources: string[][]) {
+export class TemplateProcessor {
+	sources: TemplateSources;
+
+	constructor(sources: TemplateSources) {
 		this.sources = sources;
 	}
 }
