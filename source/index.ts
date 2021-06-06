@@ -8,4 +8,8 @@ export class TemplateProcessor {
 	constructor(sources: TemplateSources) {
 		this.sources = sources;
 	}
+
+	process(template: string): string {
+		return 'Hello world!';
+	}
 }

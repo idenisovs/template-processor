@@ -4,4 +4,5 @@ export interface TemplateSources {
 export declare class TemplateProcessor {
     sources: TemplateSources;
     constructor(sources: TemplateSources);
+    process(template: string): string;
 }
