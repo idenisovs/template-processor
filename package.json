@@ -1,7 +1,7 @@
 {
   "name": "@idenisovs/template-processor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Custom template processor that used to generate random sentences.",
   "main": "./target/index.js",
   "types": "./types",
   "scripts": {
@@ -16,7 +16,7 @@
   "publishConfig": {
     "registry":"https://npm.pkg.github.com"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [ "templates", "text", "processor" ],
+  "author": "Ilja Denisovs <i.denisovs@gmail.com>",
   "license": "ISC"
 }
