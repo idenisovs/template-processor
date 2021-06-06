@@ -1,0 +1,15 @@
+{
+  "name": "template-processor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./target/index.js",
+  "types": "./types",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json",
+    "watch": "npm run build -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
