@@ -8,16 +8,26 @@
     "build": "tsc --project ./tsconfig.json",
     "build:prod": "tsc --project ./tsconfig.prod.json",
     "watch": "npm run build -- --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/idenisovs/template-processor.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
-  "keywords": [ "templates", "text", "processor" ],
+  "keywords": [
+    "templates",
+    "text",
+    "processor"
+  ],
   "author": "Ilja Denisovs <i.denisovs@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3"
+  }
 }

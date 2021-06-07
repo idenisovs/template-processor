@@ -1,6 +1,4 @@
-export interface TemplateSources {
-	[name: string]: string[]
-}
+import { TemplateSources } from './template-sources';
 
 export class TemplateProcessor {
 	sources: TemplateSources;
