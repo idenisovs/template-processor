@@ -10,5 +10,5 @@ it('Should test TemplateProcessor', () => {
 
 	const result = tp.process('[fname] [lname]');
 
-	expect(result).toBe('Hello world!');
+	expect(result).toBe('Andrew Anderson');
 });

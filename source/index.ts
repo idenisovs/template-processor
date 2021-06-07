@@ -1,4 +1,5 @@
 import { TemplateSources } from './template-sources';
+import processTemplate from './process-template';
 
 export class TemplateProcessor {
 	sources: TemplateSources;
@@ -8,6 +9,6 @@ export class TemplateProcessor {
 	}
 
 	process(template: string): string {
-		return 'Hello world!';
+		return processTemplate(template, this.sources);
 	}
 }
