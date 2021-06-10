@@ -10,5 +10,8 @@ it('Should test TemplateProcessor', () => {
 
 	const result = tp.process('[fname] [lname]');
 
-	expect(result).toBe('Andrew Anderson');
+	const [ fname, lname ] = result.split(' ');
+
+	expect(sources.fname).toContain(fname);
+	expect(sources.lname).toContain(lname);
 });
