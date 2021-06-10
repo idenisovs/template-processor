@@ -1,0 +1,1 @@
+{"version":3,"file":"get-random-item.js","sourceRoot":"","sources":["../../source/replace-placeholder/get-random-item.ts"],"names":[],"mappings":";;AAAA,SAAwB,aAAa,CAAC,IAAc;IACnD,IAAM,GAAG,GAAG,IAAI,CAAC,MAAM,EAAE,GAAG,CAAC,IAAI,CAAC,MAAM,GAAG,CAAC,CAAC,CAAC;IAE9C,IAAM,GAAG,GAAG,IAAI,CAAC,KAAK,CAAC,GAAG,CAAC,CAAC;IAE5B,OAAO,IAAI,CAAC,GAAG,CAAC,CAAC;AAClB,CAAC;AAND,gCAMC"}
