@@ -1,1 +1,1 @@
-export default function getRandomItem(list: string[], useHistory?: boolean): string;
+export default function getRandomItem(list: string[]): string;
