@@ -1,6 +1,6 @@
 {
   "name": "@idenisovs/template-processor",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Custom template processor that used to generate random sentences.",
   "main": "./lib/index.js",
   "types": "./types",
