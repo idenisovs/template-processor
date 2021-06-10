@@ -11,5 +11,5 @@ export default function findPlaceholder(template: string): string {
 		return '';
 	}
 
-	return template.substring(openingBraceIdx, closingBraceIdx + 1);
+	return template.substring(openingBraceIdx, closingBraceIdx + 1).trim();
 }

@@ -17,3 +17,9 @@ it('No closing brace', () => {
 	const placeholder = findPlaceholder(template);
 	expect(placeholder).toBe('');
 });
+
+it('Placeholder variants', () => {
+	const template = 'Hello from [aaa|bbb]';
+	const placeholder = findPlaceholder(template);
+	expect(placeholder).toBe('[aaa|bbb]');
+});

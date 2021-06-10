@@ -1,7 +1,9 @@
 import replacePlaceholder from '../../source/replace-placeholder';
 
 const sources = {
-	name: [ 'Andrew' ]
+	name: [ 'Andrew' ],
+	cities: [ 'London' ],
+	countries: [ 'USA' ]
 };
 
 it('Replace placeholder, basic case', () => {
@@ -19,3 +21,11 @@ it('No valid source found', () => {
 
 	expect(result).toBe('[fname]');
 });
+
+it('Placeholder variants', () => {
+	const placeholder = '[cities|countries]';
+
+	const result = replacePlaceholder(placeholder, sources);
+
+	expect(['London', 'USA']).toContain(result);
+})
