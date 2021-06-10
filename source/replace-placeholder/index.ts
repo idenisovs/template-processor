@@ -1,5 +1,5 @@
 import { TemplateSources } from '../template-sources';
-import getUniqueRandomItem from './get-unique-radnom-item';
+import getUniqueRandomItem from '../utils/get-unique-radnom-item';
 
 export default function replacePlaceholder(placeholder: string, sources: TemplateSources) {
 	const sourceName = placeholder.slice(1, -1);
