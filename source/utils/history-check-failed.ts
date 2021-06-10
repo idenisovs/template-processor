@@ -6,6 +6,10 @@ export default function historyCheckFailed(item: string, list: string[], history
 		return false;
 	}
 
+	if (list.length < 2) {
+		return false;
+	}
+
 	const historyList = history.get(list)!;
 
 	if (historyList.indexOf(item) !== -1) {
